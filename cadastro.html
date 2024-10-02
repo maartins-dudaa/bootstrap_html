@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+            <a href="#" class="navbar-brand">INFO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-ato mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pesquisar</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5>
+                        Cadastro de Produtos
+                    </h5>
+                </div>
+
+                <div class="card-body">
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Nome do Produto</label>
+                                <input type="text" class="form-control" id="nome" name="nome"
+                                    placeholder="Ex.:Notebook Dell">
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Marca</label>
+                                <input type="text" class="form-control" id="marca" name="marca" placeholder="Ex.:Dell">
+
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Modelo</label>
+                                <input type="text" class="form-control" id="modelo" name="modelo"
+                                    placeholder="Ex.:Inspiron 15">
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Processador</label>
+                                <input type="text" class="form-control" id="processador" name="processador"
+                                    placeholder="Intel core i7">
+
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Memoria</label>
+                                <input type="text" class="form-control" id="memoria" name="memoria"
+                                    placeholder="Ex.16GB">
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label">Armazenamento</label>
+                                <input type="text" class="form-control" id="armazenamento" name="armazenamento"
+                                    placeholder="Ex.:1TB SSD">
+
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="descricao" class="from-label">Descricao</label>
+                            <textarea name="descricao" id="descricao" rows="4"
+                                placeholder="Características do equipamento" class="form-control"></textarea>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="preco" class="form-label">Preco</label>
+                                <input type="number" class="form-control" id="preco" name="preco"
+                                    placeholder="Ex.5499,00">
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="imagem" class="form-label">Imagem do Produto</label>
+                                <input type="file" class="form-control" id="imagem" name="imagem">
+
+                            </div>
+                        </div>
+                        <button class="btn btn-success">Cadastrar Produto</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
